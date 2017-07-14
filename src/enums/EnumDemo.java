@@ -11,22 +11,22 @@ package enums;
  */
 public class EnumDemo {
 	
+	//Enums are list of constant, typed as their container (Human) if there are within a normal class, they work like inner classes.
     enum Human {
-	//Enum are list of constant, typed as their container (Human) if their with a normal class, they work like inner classes.
 	Brahima,Khaled,Claver,Ndsoga
 	}
 	public static void main(String...args){
 	
-	// Enums are not instanciated like classes but like primitives
+	// Enums are not instantiated like classes but like primitives
 	Human hm;
 	
-   //Enumerations in the container are implicitly public static final
+   //Enums in the container are implicitly static final
    //Their are then accessed statically
 	hm = Human.Brahima;
 	System.out.println(hm);
 	
 	/* The enums are known with essential methods : Values() and getValue() 
-	 values() return an array of the Container Type wchich also the type of each enumeration as well
+	 values() return an array of the Container Type which also is the type of each enumeration as well
 	  */
 	System.out.println("Let's print induvidual enumerations");
 		Human [] humans = Human.values();
@@ -56,7 +56,7 @@ public class EnumDemo {
 		
 	// From here we start playing with the second enum type
 		
-		System.out.println("Let's play with wordays now");
+		System.out.println("Let's play with workdays now");
 		
 		MyWorkDays wd;
 		wd = MyWorkDays.Monday;
