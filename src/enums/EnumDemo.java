@@ -24,7 +24,7 @@ public class EnumDemo {
    //Their are then accessed statically
 	hm = Human.Brahima;
 	System.out.println(hm);
-	
+
 	/* The enums are known with essential methods : Values() and getValue() 
 	 values() return an array of the Container Type which also is the type of each enumeration as well
 	  */
